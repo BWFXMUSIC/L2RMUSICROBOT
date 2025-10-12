@@ -40,9 +40,6 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-#isko delete karna hai koi Kam Nahin hai iska ❌️
-MIN_CHANNEL_ID = -1002306761363
-
 
 # ━━━━━━━━━━━━━❖ ➥ 𝐿2𝙍 𝗠𝗨𝗦𝗜𝗖™🇮🇳━━━━━━━━━━━
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BWFXMUSIC/L2RMUSICROBOT")
