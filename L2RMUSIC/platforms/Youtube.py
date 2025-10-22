@@ -15,7 +15,7 @@ from L2RMUSIC.utils.database import is_on_off
 
 
 def cookies():
-    cookie_dir = "cookies"
+    cookie_dir = "cookies" "yt-dlp"
     cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
 
     cookie_file = os.path.join(cookie_dir, random.choice(cookies_files))
