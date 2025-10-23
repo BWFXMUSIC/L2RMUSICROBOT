@@ -20,14 +20,13 @@ python-dotenv
 pyyaml
 speedtest-cli
 spotipy
-requests
+requests==2.28.1  # Ensure using requests version that's stable
 tgcrypto
 unidecode
-youtube-dl
+yt-dlp  # Use yt-dlp instead of youtube-dl for better support
 youtube-search
 youtube-search-python
 git+https://github.com/AsmSafone/SafoneAPI
 wget
 pornhub-api==0.3.0
 telegraph
-
