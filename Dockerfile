@@ -7,10 +7,13 @@ RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-COPY . /app/
-WORKDIR /app/
+WORKDIR /app
+COPY . .
 
 RUN python -m pip install --no-cache-dir --upgrade pip
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-CMD bash start
+# 👇 Yeh line Pyrogram update karegi
+RUN pip install --upgrade pyrogram
+
+CMD ["bash", "start"]
