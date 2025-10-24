@@ -15,12 +15,12 @@ pillow
 psutil
 py-tgcalls==0.9.7
 pykeyboard
-pyrogram==2.0.106
 python-dotenv
 pyyaml
 speedtest-cli
 spotipy
 requests
+pyrogram==2.0.106
 tgcrypto
 unidecode
 yt-dlp
