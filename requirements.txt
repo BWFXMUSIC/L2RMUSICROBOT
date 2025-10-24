@@ -30,3 +30,6 @@ git+https://github.com/AsmSafone/SafoneAPI
 wget
 pornhub-api==0.3.0
 telegraph
+@@ -36,3 +35,4 @@ youtube-search-python
+# 📢 Telegram Channel : https://t.me/MentalMusicRobot
+# ===========================================
